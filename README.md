@@ -11,6 +11,13 @@ git commit --amend
 git log
 ```
 
+### Ciclo de vida
+Os arquivos monitorados pelo git possuem 4 life-cycle.
+* untracked
+* unmodified
+* modified
+* staged
+
 ### git clone
 Download dos arquivos de um repositório remoto p/ uma pasta local, neste caso não terá maiores configurações de linha de comandos (em ambiente Windows).
 ```
@@ -46,3 +53,5 @@ git diff --name-only
 git remote
 git remote -v
 ```
+
+[fluxo remoto](fluxo-remoto.md)
